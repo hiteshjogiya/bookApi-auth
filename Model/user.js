@@ -5,4 +5,4 @@ const userSchema = mongoose.Schema({
     pswd:String
 });
 
-module.exports = mongoose.model('User',userSchema);
+module.exports = mongoose.model('BookApi-auth',userSchema);
