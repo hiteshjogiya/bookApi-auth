@@ -15,7 +15,7 @@ mongoose.connect('"mongodb://hiteshjogiya:V820n12.@cluster0-shard-00-00.ssrhf.mo
     app.use('/api',route);
     
 
-    app.listen(3000,(req,res)=>{
+    app.listen(process.env.PORT || 3000,(req,res)=>{
         console.log("server started");
     });
 } 
